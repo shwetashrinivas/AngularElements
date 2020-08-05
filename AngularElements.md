@@ -6,7 +6,7 @@
 
 - It does this by taking the Angular component and compiling it into a web component
 
-- Web components are technologies to help create reusable, encapsulated element
+- Web components are technologies to help create reusable, encapsulated element .Right now, that includes the **shadow DOM, HTML templates, HTML imports, and custom elements**
 
 ### Uses:
 1. Truly reusable components (ie. can be used in other frameworks)
