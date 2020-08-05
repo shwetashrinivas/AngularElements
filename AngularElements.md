@@ -62,3 +62,7 @@ ng build angular-app --prod --output-hashing=none && cat dist/angular-app/runtim
 6. A new file named `angularapp.js` created inside the preview folder. We can now insert the ReusableComponent code into the index.html file using `script` tag.
 
 7. `npx live-server preview`
+
+### Embedding into React App:
+
+[Reference](https://blog.bitsrc.io/using-angular-elements-why-and-how-part-2-37d52e71b4f9)

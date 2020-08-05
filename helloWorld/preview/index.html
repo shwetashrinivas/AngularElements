@@ -1,6 +1,20 @@
 <html>
+
   <body>
-    <app-reusable></app-reusable>
+    <app-reusable
+      title = "Batman"
+      rname="Bruce Wayne"
+      occupation="World's Greatest Detective"
+      location="Gotham"
+      first="Detective Comics #27"
+    ></app-reusable>
     <script src="./angularapp.js"></script>
+    <script>
+      const component = document.querySelector('app-reusable');
+      component.addEventListener('display', (event) => {
+        alert(event.detail);
+      })
+    </script>
   </body>
+
 </html>
